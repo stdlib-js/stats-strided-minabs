@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`955aee8`](https://github.com/stdlib-js/stdlib/commit/955aee86dd40a98dc992ce091f17f0a2c6136b75) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`89f1ebe`](https://github.com/stdlib-js/stdlib/commit/89f1ebe8ae4e8aa01fb03bc28a25c8d6a6578a0f) - **feat:** add `stats/strided/minabs` _(by Gururaj Gurram)_
 
 </details>
