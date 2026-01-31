@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import minabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-minabs/tags). For example,
+
+```javascript
 import minabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minabs@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minabs@v0.1.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minabs@esm/index.mjs';
 ```
 
 #### minabs( N, x, strideX )
@@ -150,7 +155,7 @@ var v = minabs.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import minabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minabs@v0.1.0-esm/index.mjs';
+import minabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minabs@esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
